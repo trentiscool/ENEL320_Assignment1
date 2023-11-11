@@ -1,6 +1,7 @@
 # ENEL320_Assignment1
 <h2>ENEL320: Communications and Signals</h2>
 <h2>Trent Kamper, tka77, 93737083</h2>
+<h2>Jonathan Nicholas, jni68, 93133260</h2>
 
 <h2>Q1:</h2>
 <h3>A:</h3>
@@ -60,7 +61,7 @@ Where T is the period of the waveform and u is the point on that period where th
 
 <h3>E: Noise</h3>
 <p>
-  For this system, there is a strong correlation between the success of the demodulation and the low pass filter (LPF) used. Due to this, some systems functioned with different LPF values better than others and as such it is difficult to know if a signal has been interpreted incorrectly due to noise of the filter type without some filter editing. However, using an exisitng case of tone modulation which has already previous been developed, more noise was steadily increased in the signal until the output signal was unintelligble. 
+  For this system, there is a strong correlation between the success of the demodulation and the low pass filter (LPF) used. Due to this, some systems functioned with different LPF values better than others and as such it is difficult to know if a signal has been interpreted incorrectly due to noise of the filter type without some filter editing. However, using an existing case of tone modulation which has already previous been developed, more noise was steadily increased in the signal until the output signal was unintelligble. 
   The results were, as the standard deviation of the gaussian noise added surpassed the signal amplitude, the singal could no longer be perfectly interpreted. At the threshold of three times this, the signal becomes practically un-interpretable. These are seen by the following figures.
 </p>
 
