@@ -50,13 +50,13 @@ Where T is the period of the waveform and u is the point on that period where th
 
 ![Block Diagram](/figures/transmitter_reciever.PNG)
 
-<h3>B: Code in repositry ! (Tone and Song demodulator) </h3>
+<h3>B: Code in repositry ! (SongDecoder.py) </h3>
 <h3>C: Tone Modulations </h3>
 
 ![Tone modulation: 0.5](/figures/Tonemod_0.5.png)
 ![Tone modulation: 1](/figures/Tonemod_1.png)
 
-<h3>D: </h3>
+<h3>D: Magic Carpet (Song.wav)</h3>
 
 <h3>E: Noise</h3>
 <p>
