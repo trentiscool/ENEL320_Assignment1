@@ -32,7 +32,7 @@ fmessage = 44100
 Am = 1
 fcarrier = 300e3
 Ac = 2
-fcutoff = 10e3
+fcutoff = 20e3
 order = 2
 
 # Mystery Song Signal
@@ -82,13 +82,13 @@ def main():
     "Signals"
     
     #Transmit
-    transmitted_signal = Transmit(song, t)
+    #transmitted_signal = Transmit(song, t)
     
     #Channel
-    noise_signal = AGWN(transmitted_signal, noise)
+    #noise_signal = AGWN(transmitted_signal, noise)
     
     #Recieve
-    Recieved_signal = Recieve(noise_signal)
+    Recieved_signal = Recieve(song)
     
     "Plot"
 
@@ -96,7 +96,7 @@ def main():
     plt.ylabel('Amplitude')
     plt.grid()
 
-    plt.plot(t, transmitted_signal)
+    #plt.plot(t, transmitted_signal)
     #plt.plot(t, noise_signal, color='grey')
     plt.plot(t, Recieved_signal)
     #plt.plot(t, tone_message)
