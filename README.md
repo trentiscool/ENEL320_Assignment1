@@ -17,7 +17,7 @@ The selected waveform for this assignment was a commutation cycle in a single ph
 Where T is the period of the waveform and u is the point on that period where the turning on occurs.  
 </p>
 
-![image](https://github.com/trentiscool/ENEL320_Assignment1/assets/148014527/9b2bc56c-b795-4a20-b306-134b371c26f9)
+![image](/figures/SinglePhase.png)
 
 <h3>C:</h3>
 <p>
@@ -47,18 +47,27 @@ Where T is the period of the waveform and u is the point on that period where th
 <h2>Q2:</h2>
 <h3>A: Block Diagram</h3>
 
-![Block Diagram](transmitter_reciever.PNG)
+![Block Diagram](/figures/transmitter_reciever.PNG)
 
 <h3>B: Code in repositry ! (Tone and Song demodulator) </h3>
 <h3>C: Tone Modulations </h3>
 
-![Tone modulation: 0.5]()
-![Tone modulation: 1]()
+![Tone modulation: 0.5](/figures/Tonemod_0.5.png)
+![Tone modulation: 1](/figures/Tonemod_1.png)
 
 <h3>D: </h3>
 
 <h3>E: Noise</h3>
 <p>
   For this system, there is a strong correlation between the success of the demodulation and the low pass filter (LPF) used. Due to this, some systems functioned with different LPF values better than others and as such it is difficult to know if a signal has been interpreted incorrectly due to noise of the filter type without some filter editing. However, using an exisitng case of tone modulation which has already previous been developed, more noise was steadily increased in the signal until the output signal was unintelligble. 
-  The results were. 
+  The results were, as the standard deviation of the gaussian noise added surpassed the signal amplitude, the singal could no longer be perfectly interpreted. At the threshold of three times this, the signal becomes practically un-interpretable. These are seen by the following figures.
 </p>
+
+![Noise 1](/figures/addativenoise_1.png)
+![Noise 3](/figures/addativenoise_3.png)
+![Noise 5](/figures/addativenoise_5.png)
+
+<h2>Q3:</h2>
+
+![Question 3](/figures/Questions_3_PDF.pdf)
+
