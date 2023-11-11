@@ -1,5 +1,6 @@
 # ENEL320_Assignment1
 <h2>ENEL320: Communications and Signals</h2>
+<h2>Trent Kamper, tka77, 93737083</h2>
 
 <h2>Q1:</h2>
 <h3>A:</h3>
@@ -69,5 +70,8 @@ Where T is the period of the waveform and u is the point on that period where th
 
 <h2>Q3:</h2>
 
-![Question 3](/figures/Questions_3_PDF.pdf)
+![Question 3](/figures/3_1.PNG)
+![Question 3](/figures/3_2.PNG)
+
+
 
